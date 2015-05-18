@@ -10,9 +10,10 @@
               "</a>" +
               "<ul class='dropdown-menu'>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div' tabindex='-1' role='menuitem'>" + locale.font_styles.normal + "</a></li>" +
+                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='streamer' tabindex='-1' role='menuitem'>" + locale.font_styles.streamer + "</a></li>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h1' tabindex='-1' role='menuitem'><h1>" + locale.font_styles.h1 + "</h1></a></li>" +
-                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h2' tabindex='-1' role='menuitem'>" + locale.font_styles.h2 + "</a></li>" +
-                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h3' tabindex='-1' role='menuitem'>" + locale.font_styles.h3 + "</a></li>" +
+                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h2' tabindex='-1' role='menuitem'><h2>" + locale.font_styles.h2 + "</h2></a></li>" +
+                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h3' tabindex='-1' role='menuitem'><h3>" + locale.font_styles.h3 + "</h3></a></li>" +
               "</ul>" +
             "</li>";
         },
@@ -484,6 +485,7 @@
             font_styles: {
                 title: "Font style",
                 normal: "Normale tekst",
+                streamer: "Streamer",
                 h1: "Kop 1",
                 h2: "Kop 2",
                 h3: "Kop 3"
