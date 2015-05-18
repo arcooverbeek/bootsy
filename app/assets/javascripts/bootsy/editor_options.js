@@ -38,6 +38,9 @@ window.Bootsy.options = {
       "h1": {},
       "h2": {},
       "h3": {},
+      "streamer": {
+        "add_class": "streamer"
+      },
       "small": {},
       "p": {},
       "blockquote": {},
