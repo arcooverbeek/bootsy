@@ -10,7 +10,7 @@
               "</a>" +
               "<ul class='dropdown-menu'>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='div' tabindex='-1' role='menuitem'>" + locale.font_styles.normal + "</a></li>" +
-                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h1' tabindex='-1' role='menuitem'>" + locale.font_styles.h1 + "</a></li>" +
+                "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h1' tabindex='-1' role='menuitem'><h1>" + locale.font_styles.h1 + "</h1></a></li>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h2' tabindex='-1' role='menuitem'>" + locale.font_styles.h2 + "</a></li>" +
                 "<li><a data-wysihtml5-command='formatBlock' data-wysihtml5-command-value='h3' tabindex='-1' role='menuitem'>" + locale.font_styles.h3 + "</a></li>" +
               "</ul>" +
@@ -483,10 +483,10 @@
         en: {
             font_styles: {
                 title: "Font style",
-                normal: "Normal text",
-                h1: "Heading 1",
-                h2: "Heading 2",
-                h3: "Heading 3"
+                normal: "Normale tekst",
+                h1: "Kop 1",
+                h2: "Kop 2",
+                h3: "Kop 3"
             },
             emphasis: {
                 bold: "Bold",
